@@ -12,7 +12,7 @@
 ### Steps
 
 ##### DEVELOPMENT
-* Use Spring Toos Suite (e.g. STS 4)
+* Use Spring Tool Suite (e.g. STS 4)
 * Create a spring project using File->New->Project->Spring Starter Project (Fill necessary details along with Type: Maven and Java version: 8) + Use the Spring Boot Starter modules "Spring Web" and "Spring for Apache Kafka".
 * Create "Producer" and "Consumer" classes under "services" package
 * Create "Application.yaml" defining where to find kafka servers i.e. brokers (bootstrap-server)
@@ -37,6 +37,3 @@
 #### Assumption:
 * Kafka installation folder is set to environment variable "MY_KAFKA_HOME"
 * "%MY_KAFKA_HOME%\bin\windows" is set in the "PATH" variable for windows. For unix environment it is "$MY_KAFKA_HOME/bin"
-
-#### Source Code:
-[GitHub Repository](https://github.com/chinmay-anand/spring-kafka/)
