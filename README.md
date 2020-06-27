@@ -32,7 +32,7 @@
     * listeners
     * log.dirs
 * Once server (broker) is up run the spring application.
-* Use Postman applicaiton to post few messages (See the spring applciation console log for more instructions)
+* Use Postman application to post few messages (See the spring application console log for more instructions)
 
 #### Assumption:
 * Kafka installation folder is set to environment variable "MY_KAFKA_HOME"
