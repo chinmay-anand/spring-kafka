@@ -37,3 +37,6 @@
 #### Assumption:
 * Kafka installation folder is set to environment variable "MY_KAFKA_HOME"
 * "%MY_KAFKA_HOME%\bin\windows" is set in the "PATH" variable for windows. For unix environment it is "$MY_KAFKA_HOME/bin"
+
+#### Source Code:
+[GitHub Repository](https://github.com/chinmay-anand/spring-kafka/)
