@@ -21,7 +21,7 @@
   * By default spring uses internal tomcat with port 8080, if you want then you can provide 9000 for server.port to avoid possible conflict with external tomcat server.
 * Create the "MyKafkaController" class to serve REST requests and use it to send messages through producer private member autowired through constructor.
 * Initially if "pom.xml" throws error you can do a "maven-->Update Project" which will clear the log (refer stackexchange)
-* If there are a lot of maven related issues in your ide then you may think of renaming/removing the folder ".m2\repository" under your home folder. Then do a project refresh and a maven update project. This will rebuild the repository folder with altest data from maven.
+* If there are a lot of maven related issues in your ide then you may think of renaming/removing the sub-folder "repository" under your "$home/.m2" folder. Then do a project refresh and a maven update project. This will rebuild the repository folder with altest data from maven.
 
 ##### TESTING
 * Start zookeeper using and wait for oit to start completely before next step:
